@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать изучение карточек"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить карточку"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
